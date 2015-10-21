@@ -2,7 +2,7 @@
 
 Дополнениe к поле INPUT что бы выполнялась функция по Enter
 
-``
+```
         .directive('myEnter', function () {
             return function (scope, element, attrs) {
                 element.bind("keydown keypress", function (event) {
@@ -16,11 +16,11 @@
                 });
             };
         })
-``
+```
 
 Confirm для элементов html
 
-``
+```
         .directive('ngReallyClick', [function() {
             return {
                 restrict: 'A',
@@ -34,4 +34,4 @@ Confirm для элементов html
                 }
             }
         }])
-``
+```
